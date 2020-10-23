@@ -1,5 +1,5 @@
-module.exports = {
-  resume = {
+module.exports = function (controller) {
+  const resume = {
     contact : {
       firstName: "Kaiyip",
       preferName: "Kai",
