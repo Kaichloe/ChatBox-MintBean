@@ -13,7 +13,7 @@ module.exports = function (controller) {
 
     setTimeout(async () => {
       await bot.changeContext(message.reference);
-      await bot.reply(message, "Hello there");
+      await bot.reply(message, "Hello there...");
       await bot.reply(message, {type: "typing"});
     }, 1500)
     setTimeout(async () => {
@@ -24,7 +24,7 @@ module.exports = function (controller) {
     setTimeout(async () => {
       await bot.changeContext(message.reference);
       await bot.reply(message, {
-        text: "Feel free to ask me questions about my creater!",
+        text: "Feel free to ask me questions about my creator!",
         quick_replies: [
           {
             title: "Contact Info",
@@ -50,4 +50,8 @@ module.exports = function (controller) {
       });
     }, 3500);
   }
+
+  controller.hears("hello", "message", async(bot, message)=>{
+    await bot.reply(message, "Hello! How's your day?")
+  })
 };

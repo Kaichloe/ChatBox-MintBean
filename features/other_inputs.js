@@ -1,5 +1,5 @@
 module.exports = function (controller) {
-  controller.hears("message, direct_message", async(bot, message) => {
+  controller.on("message", async(bot, message) => {
     await bot.reply(message, {
       text:
         "Sorry I don't know how to answer that, please try the replies below",
