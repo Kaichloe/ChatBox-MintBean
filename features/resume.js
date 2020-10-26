@@ -29,15 +29,15 @@ module.exports = (controller) => {
         institution: "App Academy",
         focus: "Full Stack Software Development",
         degree: "Certificate",
-        startDate: "November 2019",
-        endDate: "March 2020"
+        start_Date: "November 2019",
+        end_Date: "March 2020"
       },
       {
         institution: "Zicklin School of Business",
         focus: "Finance",
         degree: "Bachelor of Science",
-        startDate: "August 2012",
-        endDate: "December 2016"
+        start_Date: "August 2012",
+        end_Date: "December 2016"
       }
     ],
 

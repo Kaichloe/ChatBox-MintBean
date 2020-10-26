@@ -8,7 +8,6 @@ module.exports = function(controller) {
       const displayContact = async (bot, message) => {
         await bot.reply(message, { type: "typing" });
 
-        let contactInfo;
         const keys = Object.keys(controller.resume.contact);
         const values = Object.values(controller.resume.contact)
         for (let i = 0; i < keys.length; i++) {
