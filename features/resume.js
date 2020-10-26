@@ -1,13 +1,11 @@
 module.exports = (controller) => {
   controller.resume = {
     contact : {
-      firstName: "Kaiyip",
-      preferName: "Kai",
-      lastName: "Ho",
-      email: "kaiyip.ho23@gmail.com",
-      website: "https://kaichloe.github.io/",
-      github: "https://github.com/Kaichloe",
-      location: "New York City",
+      Email: "kaiyip.ho23@gmail.com",
+      Website: "https://kaichloe.github.io/",
+      Github: "https://github.com/Kaichloe",
+      LinkedIn: "https://www.linkedin.com/in/kaiyip-ho-216230191/",
+      Location: "New York City",
     },
 
     work: [
