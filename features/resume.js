@@ -1,5 +1,5 @@
-module.exports = function (controller) {
-  const resume = {
+module.exports = (controller) => {
+  controller.resume = {
     contact : {
       firstName: "Kaiyip",
       preferName: "Kai",
@@ -64,7 +64,5 @@ module.exports = function (controller) {
       },
       
     ]
-
-
   }
 }
