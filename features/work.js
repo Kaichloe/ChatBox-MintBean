@@ -1,12 +1,15 @@
+const { BotWorker } = require("botkit")
+
 module.exports = function(controller) {
-  controller.hears("education", "message", async(bot, message)=>{
-    await displayEducation(bot, message);
+  controller.hears(["work", "experience"], "message", async(bot, message)=>{
+    await displayWork(bot, message);
   })
 
-  const displayEducation = async(bot, message) => {
+  
+  const displayWork = async(bot, message)=>{
     await bot.reply(message, { type: "typing" });
-    
-    const education = controller.resume.education;
+
+    const work = controller.resume.work;
 
     for (let i = 0; i < education.length; i++) {
       await bot.reply(message, {
@@ -21,8 +24,8 @@ module.exports = function(controller) {
             payload: "Contact Info",
           },
           {
-            title: "Work History",
-            payload: "Work History",
+            title: "Education",
+            payload: "Education",
           },
           {
             title: "Tech Stack",
@@ -34,6 +37,5 @@ module.exports = function(controller) {
           }
         ]
       });
-    }
   }
 }
