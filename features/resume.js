@@ -2,10 +2,9 @@ module.exports = (controller) => {
   controller.resume = {
     contact : {
       Email: "kaiyip.ho23@gmail.com",
-      Website: "https://kaichloe.github.io/",
+      Portifolio: "https://kaichloe.github.io/",
       Github: "https://github.com/Kaichloe",
       LinkedIn: "https://www.linkedin.com/in/kaiyip-ho-216230191/",
-      Location: "New York City",
     },
 
     work: [
@@ -29,15 +28,15 @@ module.exports = (controller) => {
         institution: "App Academy",
         focus: "Full Stack Software Development",
         degree: "Certificate",
-        start_Date: "November 2019",
-        end_Date: "March 2020"
+        startDate: "November 2019",
+        endDate: "March 2020"
       },
       {
         institution: "Zicklin School of Business",
         focus: "Finance",
         degree: "Bachelor of Science",
-        start_Date: "August 2012",
-        end_Date: "December 2016"
+        startDate: "August 2012",
+        endDate: "December 2016"
       }
     ],
 

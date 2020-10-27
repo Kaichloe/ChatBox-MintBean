@@ -9,7 +9,7 @@ module.exports = function(controller) {
         await bot.reply(message, { type: "typing" });
 
         const keys = Object.keys(controller.resume.contact);
-        const values = Object.values(controller.resume.contact)
+        const values = Object.values(controller.resume.contact);
         for (let i = 0; i < keys.length; i++) {
           await bot.reply(message, `${keys[i] + ": " + values[i]}`);
         }
