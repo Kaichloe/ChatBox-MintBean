@@ -7,7 +7,7 @@ module.exports = (controller) => {
       LinkedIn: "https://www.linkedin.com/in/kaiyip-ho-216230191/",
     },
 
-    work: [
+    work:
       {
         company: "National Debt Relief",
         position: ["Senior Account Manager", "Team lead"],
@@ -22,7 +22,6 @@ module.exports = (controller) => {
         accomplishments:
           " Performance was ranked on a monthly basis and I was ranked in the top 3 monthly. After my first 5 months on the job and was promoted to manage a team of over 13.",
       },
-    ],
 
     education: [
       {
@@ -107,6 +106,6 @@ module.exports = (controller) => {
       },
     ],
 
-    aboutMe: "On my downtime you can usually catch me playing various video games, trying to improve. I enjoy lifting weights, eating and traveling to different countries to try new foods."
+    aboutMe: "I am a software engineer with a finance background. I enjoy the thrill of winning and solving challenges. On my downtime you can usually catch me playing various video games, trying to improve and of course win. I enjoy lifting weights, eating and traveling to different countries to try new foods."
   };
 }
